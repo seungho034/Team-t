@@ -25,4 +25,9 @@
       <Filter>Menu</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="textNew.txt">
+      <Filter>소스 파일</Filter>
+    </Text>
+  </ItemGroup>
 </Project>
