@@ -3,6 +3,7 @@
 
 using namespace std;
 
+
 claas A
 {
    public:
@@ -31,4 +32,17 @@ void main()
 }
 
 
+
+
+int main()
+{
+    cout << "더하기" << endl;
+
+    int a = 10;
+    int b = 20;
+
+    cout << a + b << endl;
+
+    
+}
 
