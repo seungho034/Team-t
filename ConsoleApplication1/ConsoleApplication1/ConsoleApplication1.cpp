@@ -4,22 +4,33 @@
 #include <string>
 
 using namespace std;
-
-template <typename T>
-void Swap(T& lhs, T& rhs)
+class A
 {
-	const T temp = std::move(lhs);
-	lhs = std::move(rhs);
-	rhs = std::move(temp);
+
+public:
+
+	int a = 10;
+	int b = 10;
+	int result;
+
+	int sum()
+	{
+
+		result = a + b;
+		cout << result << endl;
+
+		return a, b;
+
+	}
+
+
+};
+
+void main()
+{
+
+	A sum;
+	sum.sum();
+
 }
 
-int main()
-{
-	int a = 10, b = 20;
-	printf("이전 : (%d, %d)\n", a, b);
-
-	Swap(a, b);
-	printf("이후 : (%d, %d)\n", a, b);
-
-	return 0;
-}
