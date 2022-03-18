@@ -22,11 +22,12 @@ void Swap(T& lhs, T& rhs)
 int main()
 {
   
-  int e = ERROR;
-    cout << e << endl;
+    	int e = ERROR;
+    	cout << e << endl;
 
-    hahaha haha;
-    cout << haha.first << haha.second << haha.third << endl;
+    	hahaha haha;
+	
+    	cout << haha.first << haha.second << haha.third << endl;
   
   
 	int a = 10, b = 20;
