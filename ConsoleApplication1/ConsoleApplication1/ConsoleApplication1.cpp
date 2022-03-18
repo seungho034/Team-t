@@ -1,24 +1,22 @@
 ﻿#include <iostream>
-#include <fstream>
 #include <string>
 
 using namespace std;
 
-int main()
-{
-    ifstream readFile;             
+#define ERROR 404
 
-    readFile.open("textNew.txt");    
-    string inputData;
+struct hahaha {
+    string first = "HIM";
+    string second = "NAE";
+    string third = "LA";
+};
 
-    if (readFile.is_open()) {
-        while (!readFile.eof()) {
-            getline(readFile, inputData);   
-            cout << inputData << endl;
-        }
-    }
+int main() {
+    int e = ERROR;
+    cout << e << endl;
 
-    readFile.close(); 
+    hahaha haha;
+    cout << haha.first << haha.second << haha.third << endl;
 
     return 0;
 }
