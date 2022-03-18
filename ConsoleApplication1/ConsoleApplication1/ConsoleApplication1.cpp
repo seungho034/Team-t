@@ -3,38 +3,26 @@
 
 using namespace std;
 
-#define ERROR 404
-
-struct hahaha {
-    string first = "HIM";
-    string second = "NAE";
-    string third = "LA";
-};
-
-template <typename T>
-void Swap(T& lhs, T& rhs)
-{
-	const T temp = std::move(lhs);
-	lhs = std::move(rhs);
-	rhs = std::move(temp);
-}
-
 int main()
 {
-  
-    	int e = ERROR;
-    	cout << e << endl;
+    cout << "더하기" << endl;
 
-    	hahaha haha;
-	
-    	cout << haha.first << haha.second << haha.third << endl;
-  
-  
-	int a = 10, b = 20;
-	printf("이전 : (%d, %d)\n", a, b);
+    int a = 10;
+    int b = 20;
 
-	Swap(a, b);
-	printf("이후 : (%d, %d)\n", a, b);
+    cout << a + b << endl;
 
-	return 0;
+    cout << "구구단" << endl;
+    int i, j;
+    int gugudan;
+
+    for(int i = 1; j < 10; j++)
+    {
+        for (int i = 1; i < 10; i++)
+        {
+            gugudan = i * j;
+            cout << i << "X" << j << "=" << gugudan << endl;
+        }
+    }
+
 }
