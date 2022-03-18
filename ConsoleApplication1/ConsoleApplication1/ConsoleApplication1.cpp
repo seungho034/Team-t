@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 #include <string>
+#include <string>
 
 using namespace std;
 
@@ -11,12 +12,29 @@ struct hahaha {
     string third = "LA";
 };
 
-int main() {
-    int e = ERROR;
+template <typename T>
+void Swap(T& lhs, T& rhs)
+{
+	const T temp = std::move(lhs);
+	lhs = std::move(rhs);
+	rhs = std::move(temp);
+}
+
+int main()
+{
+  
+  int e = ERROR;
     cout << e << endl;
 
     hahaha haha;
     cout << haha.first << haha.second << haha.third << endl;
+  
+  
+	int a = 10, b = 20;
+	printf("이전 : (%d, %d)\n", a, b);
 
-    return 0;
+	Swap(a, b);
+	printf("이후 : (%d, %d)\n", a, b);
+
+	return 0;
 }

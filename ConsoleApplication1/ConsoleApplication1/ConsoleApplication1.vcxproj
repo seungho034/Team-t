@@ -140,6 +140,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ConsoleApplication1.cpp" />
+    <ClCompile Include="Menu.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Menu.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="textNew.txt" />
