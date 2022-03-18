@@ -1,36 +1,34 @@
-﻿#include <iostream>
-#include <fstream>
-#include <string>
+#include <iostream>
 #include <string>
 
 using namespace std;
-class A
+
+claas A
 {
+   public:
 
-public:
+	 int a = 10;
+	 int b = 10;
+	 int result;
 
-	int a = 10;
-	int b = 10;
-	int result;
-
-	int sum()
-	{
+	 int sum()
+  {
 
 		result = a + b;
 		cout << result << endl;
 
 		return a, b;
-
-	}
+  }
 
 
 };
 
 void main()
-{
-
+  
+{ 	
 	A sum;
 	sum.sum();
-
 }
+
+
 
