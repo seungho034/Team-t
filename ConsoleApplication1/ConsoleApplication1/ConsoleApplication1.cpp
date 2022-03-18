@@ -1,9 +1,15 @@
-﻿#include <iostream>
-#include <fstream>
-#include <string>
+#include <iostream>
 #include <string>
 
 using namespace std;
+
+#define ERROR 404
+
+struct hahaha {
+    string first = "HIM";
+    string second = "NAE";
+    string third = "LA";
+};
 
 template <typename T>
 void Swap(T& lhs, T& rhs)
@@ -15,6 +21,15 @@ void Swap(T& lhs, T& rhs)
 
 int main()
 {
+  
+    	int e = ERROR;
+    	cout << e << endl;
+
+    	hahaha haha;
+	
+    	cout << haha.first << haha.second << haha.third << endl;
+  
+  
 	int a = 10, b = 20;
 	printf("이전 : (%d, %d)\n", a, b);
 
