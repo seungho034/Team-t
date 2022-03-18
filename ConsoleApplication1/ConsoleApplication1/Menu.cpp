@@ -11,3 +11,8 @@ void RestaurantMenu::Show()
 {
 	puts("레스토랑 메뉴");
 }
+
+void FieldMenu::Show()
+{
+	puts("필드 메뉴");
+}

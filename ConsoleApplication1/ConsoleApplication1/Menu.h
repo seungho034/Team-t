@@ -17,3 +17,9 @@ class RestaurantMenu : public Menu
 public:
 	virtual void Show() override;
 };
+
+class FieldMenu : public Menu
+{
+public:
+	virtual void Show() override;
+};
