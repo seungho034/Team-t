@@ -11,3 +11,9 @@ class InventoryMenu : public Menu
 public:
 	virtual void Show() override;
 };
+
+class RestaurantMenu : public Menu
+{
+public:
+	virtual void Show() override;
+};
