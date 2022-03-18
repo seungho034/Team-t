@@ -3,6 +3,37 @@
 
 using namespace std;
 
+
+claas A
+{
+   public:
+
+	 int a = 10;
+	 int b = 10;
+	 int result;
+
+	 int sum()
+  {
+
+		result = a + b;
+		cout << result << endl;
+
+		return a, b;
+  }
+
+
+};
+
+void main()
+  
+{ 	
+	A sum;
+	sum.sum();
+}
+
+
+
+
 int main()
 {
     cout << "더하기" << endl;
@@ -12,17 +43,6 @@ int main()
 
     cout << a + b << endl;
 
-    cout << "구구단" << endl;
-    int i, j;
-    int gugudan;
-
-    for(int i = 1; j < 10; j++)
-    {
-        for (int i = 1; i < 10; i++)
-        {
-            gugudan = i * j;
-            cout << i << "X" << j << "=" << gugudan << endl;
-        }
-    }
-
+    
 }
+
